@@ -14,7 +14,7 @@ body{
 .content{
   margin-top: 70px;
   height: 200wh;
-  background-color: greenyellow;
+  background-color: red;
   background-size: cover;
   display: grid;
   place-items: center;
@@ -134,6 +134,8 @@ footer{
 footer h4{
   color: white;
 }
+
+/* Responsive navigation begins here */
 
 @media screen and (min-width:800px) {
   .nav-toggle-label {
