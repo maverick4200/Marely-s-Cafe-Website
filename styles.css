@@ -3,8 +3,17 @@
 }
 
 body{
-  margin: 0px;
+  margin: 0;
   background: lightgray;
+}
+
+.content{
+  margin-top: 70px;
+  height: 200wh;
+  background-color: greenyellow;
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
 
 /*navigation style begins here*/
@@ -13,7 +22,7 @@ header{
   text-align: center;
   position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 100%; 
 }
 
 .nav-toggle {
@@ -25,7 +34,6 @@ header{
   top: 0;
   left: 0;
   margin-left: 1em;
-  
   height: 100%;
   display: flex;
   align-items: center;
@@ -106,10 +114,13 @@ nav a:hover {
   transition: opacity 250ms ease-in-out;
 }
 
+.container{
+  padding-top: 80px;
+}
+
 footer{
   position: fixed;
 }
-
 
 @media screen and (min-width:800px) {
   .nav-toggle-label {
@@ -170,3 +181,4 @@ footer{
     transform: scale(1,1);
   }
 }
+
