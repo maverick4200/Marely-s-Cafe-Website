@@ -18,7 +18,7 @@ body{
   background-color: red;
   background-size: cover;
   display: grid;
-  place-items: center;
+  
 }
 
 /*navigation style begins here*/
@@ -122,7 +122,7 @@ nav a:hover {
 }
 
 .container{
-  /* padding-bottom: 40px; */
+  padding: 0;
 }
 
 content img{
@@ -130,21 +130,23 @@ content img{
   width: 100%;
 }
 
-footer{
-  position: fixed;
-  bottom: 0;
-  /* was fixed */
-  
-  background-color: black;
-  /* position: fixed; */
-  bottom: 0;
+footer {
+  position: absolute;
+  bottom: 10;
+  left: 0;
+  right: 0;
+  background:black;
+  height: auto;
   width: 100%;
-  
+  padding: 0;
+
 }
 
-footer h4{
+.footer-content{
   color: white;
 }
+  
+
 
 /* Responsive navigation begins here */
 
