@@ -132,17 +132,34 @@ nav a:hover {
 }
 
 main {
-  background-color: green;
+  background-color: lightgrey;
   position: relative;
 }
 
-
+/* START OF FOOTER */
 
 footer{
-  background-color: black;
-  position: relative;
+  background-color: darkgray;
+}
+
+.footercontainer{
+  color: black;
+  text-align: center;
+ 
+}
+
+.hourcontainer {
   text-align: center;
 }
+
+.footer-cafe-name {
+  text-align: center;
+  color: black;
+}
+
+/* END OF FOOTER  */
+
+/* START OF RESPONSIVE STUFF */
 
 @media screen and (min-width:800px) {
   .nav-toggle-label {
@@ -208,7 +225,7 @@ footer{
 }
 
 
-/* menu */
+/* START OF MENU CSS  */
 
 .container {
   display: grid;
@@ -265,17 +282,12 @@ hr.double-horizontal {
  
 }
 
-.footer-cafe-name {
-  color: white;
-  text-align: center;
-}
-
         
 @media (max-width: 800px) {
     .container {  grid-template-columns: auto;}
 }   
 
-/* end of menu css */
+/* END OF MENU CSS STUFF */
 @media screen and (min-width:800px) {
   body{
     margin: 0;
