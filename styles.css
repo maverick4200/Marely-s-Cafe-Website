@@ -157,6 +157,11 @@ footer{
   color: black;
 }
 
+button.social-media-btn{
+  text-align: center;
+  
+}
+
 /* END OF FOOTER  */
 
 /* START OF RESPONSIVE STUFF */
