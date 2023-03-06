@@ -157,9 +157,9 @@ footer{
   color: black;
 }
 
-button.social-media-btn{
-  text-align: center;
-  
+.social-media-btn{
+  display: flex;
+  justify-content: center;
 }
 
 /* END OF FOOTER  */
