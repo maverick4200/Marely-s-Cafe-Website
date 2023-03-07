@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 main {
-  background-color: lightgrey;
+  background-color: white;
   position: relative;
 }
 
@@ -148,9 +148,9 @@ footer{
  
 }
 
-.hourcontainer {
-  text-align: center;
-}
+
+
+
 
 .footer-cafe-name {
   text-align: center;
@@ -293,6 +293,83 @@ hr.double-horizontal {
 }   
 
 /* END OF MENU CSS STUFF */
+
+/* START OF HOURS AND LOCATION */
+
+.hours-location {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hours-location h2 {
+  text-align:center;
+  margin-top: 0;
+}
+
+.location-hr {
+  border: none;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 2fr .5fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.map-wrapper {
+  background-color: white;
+  padding: 10px;
+}
+
+.googlemap {
+  width:100%;
+  top:0;
+  left:0;
+  height: 100%;
+}
+
+.info-wrapper {
+  background-color: white;
+  padding: 10px;
+}
+
+.info-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+  .business-days {
+  list-style: none;
+  padding-inline-start:0;
+}
+
+.direction-button {
+  
+  background-color: black;
+  color:white;
+  font-weight:bold;
+  padding: 16px;
+  border:none;
+  border-radius:5px;
+}
+
+/* END OF HOURS AND LOCATION */
+
 @media screen and (min-width:800px) {
   body{
     margin: 0;
@@ -300,6 +377,21 @@ hr.double-horizontal {
     display: flex;
     flex-direction: column;
     min-height:100vh;
+  }
+}
+
+/* media for hours and location */
+
+@media screen and (max-width: 800px) {
+  .second-container {
+    display: block;
+    width: 100%;
+  }
+  .map-wrapper {
+    order: 2;
+  }
+  .info-wrapper {
+    order: 1;
   }
 }
 
