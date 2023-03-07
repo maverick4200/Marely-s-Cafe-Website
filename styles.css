@@ -2,23 +2,16 @@
   --background: white;
 }
 
-.html {
-  font-family: 'Segoe UI', Roboto;
+html{
+  height: 100%;
 }
 
 body{
   margin: 0;
-  background: blue;
-  padding-bottom: 50px;
-}
-
-.content{
-  margin-top: 70px;
-  height: 200wh;
-  background-color: red;
-  background-size: cover;
-  display: grid;
-  
+  background: lightgreen;
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
 }
 
 /*navigation style begins here*/
@@ -48,6 +41,7 @@ h1.logo {
   top: 0;
   left: 0;
   margin-left: 1em;
+  
   height: 100%;
   display: flex;
   align-items: center;
@@ -89,7 +83,6 @@ nav {
   transform: scale(1,0);
   transform-origin: top;
   transition: 400ms ease-in-out;
-  z-index: 1;
 }
 
 nav ul {
@@ -129,25 +122,13 @@ nav a:hover {
   transition: opacity 250ms ease-in-out;
 }
 
-.container{
-  padding: 0;
-}
 
-content img{
-  background-image: cover;
+
+.img-container img {
+  display: flex;
   width: 100%;
-}
-
-footer {
-  position: absolute;
-  bottom: 10;
-  left: 0;
-  right: 0;
-  background:black;
-  height: auto;
-  width: 100%;
-  padding: 0;
-
+  height: 100%;
+  margin: auto;
 }
 
 main {
@@ -187,21 +168,17 @@ footer{
 
 @media screen and (min-width:800px) {
   .nav-toggle-label {
-    display: none;   
+    display: none;
   }
 
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-    font-family: 'Segoe UI', Roboto;
-    font-weight: bold;  
-    height: 60px;
   }
 
-  
-
   .logo {
-    grid-column: 2 / 3; 
+    grid-column: 2 / 3;
+    font-family: 'Segoe UI', Roboto;
   }
 
   nav {
@@ -209,22 +186,24 @@ footer{
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
-    align-items: center;    
+    align-items: center;
   }
 
   nav ul {
     display: flex;
-    justify-content: flex-end;   
+    justify-content: flex-end;    
   }
- 
+
   nav li {
+    font-family: 'Segoe UI', Roboto;
+    font-weight: bold;
     margin-left: 3em;
-    margin-bottom: 0;    
+    margin-bottom: 0;
   }
 
   nav a {
     opacity: 1;
-    position: relative;   
+    position: relative;
   }
 
   nav a::before {
