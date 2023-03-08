@@ -139,19 +139,23 @@ main {
 /* START OF FOOTER */
 
 footer{
-  background-color: black;
-  padding-top: 5%;
+  background-color: orange;
+  padding-top: 1em;
   padding-bottom: 10%;
 }
 
 .footercontainer{
   color: white;
   text-align: center;
- 
+  font-family: 'Segoe UI', Roboto;
+  font-size: 2em;
 }
 
 .footer-cafe-name {
+  padding-bottom: 2em;
+  font-size: 16px;
   text-align: center;
+  font-family: 'Segoe UI', Roboto;
   color: white;
 }
 
@@ -162,6 +166,32 @@ footer{
 }
 
 /* END OF FOOTER  */
+
+/* START OF SOCIAL MEDIA BUTTONS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF SOCIAL MEDIA BUTTONS */
+
 
 /* START OF RESPONSIVE STUFF */
 
@@ -296,7 +326,7 @@ hr.double-horizontal {
 /* START OF HOURS AND LOCATION */
 
 section {
-  background-color: white;
+  background-color: #f5f5f5;
   padding-bottom: 5%;
   padding-top: 5%;
 }
@@ -330,7 +360,7 @@ section {
 }
 
 .map-wrapper {
-  background-color: white;
+  background-color: f5f5f5;
   padding: 10px;
 }
 
@@ -342,7 +372,7 @@ section {
 }
 
 .info-wrapper {
-  background-color: white;
+  background-color: f5f5f5;
   padding: 10px;
 }
 
