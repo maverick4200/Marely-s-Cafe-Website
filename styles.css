@@ -264,11 +264,11 @@ i {
 }
  
 .food-section{
-  font-family:montserrat;
+  font-family:Montserrat;
   display:grid;
+  justify-items: center;
   grid-template-columns: 1fr ;
   background-color:white;
-  background-color: white;
   padding: 10px;
   padding-left:30%;
   padding-right:30%;
@@ -283,8 +283,9 @@ hr.menu {
 }
 
 hr.double-horizontal {
-   border: 1px solid black;
- 
+  border: 3px solid black;
+  height: 1px;
+  width: 500px;
 }
 
         
@@ -301,11 +302,12 @@ hr.double-horizontal {
   margin-bottom: 50px;
   width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
 
-.hours-location h2 {
-  text-align:center;
+.food-title-menu {
   margin-top: 0;
+  color:black;
 }
 
 .location-hr {
@@ -346,11 +348,17 @@ hr.double-horizontal {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-family:Montserrat;
+  color: #666;
+  position: relative;
+  display: block;
+  
 }
 
 .contact-info {
   font-weight: bold;
-  font-size: 16px;
+  
 }
 
   .business-days {
@@ -358,14 +366,29 @@ hr.double-horizontal {
   padding-inline-start:0;
 }
 
-.direction-button {
-  
+.info-container a {
+  position: relative;
+  text-decoration: none;
+  font-family:'Segoe UI', Roboto;
+  font-weight: bold;
+  color: black;
+
+}
+
+.info-container a:after {
+  content: "";  
+  position: absolute;
   background-color: black;
-  color:white;
-  font-weight:bold;
-  padding: 16px;
-  border:none;
-  border-radius:5px;
+  height: 5px;
+  width: 0;
+  left: 0;
+  bottom: -.75em;
+  transition: 250ms;
+  transform-origin: center;
+}
+
+.info-container a:hover::after {
+  width: 100%;
 }
 
 /* END OF HOURS AND LOCATION */
