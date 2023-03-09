@@ -480,6 +480,7 @@ hr.double-horizontal {
   .second-container {
     display: block;
     width: 100%;
+    background-color: red;
   }
   .map-wrapper {
     order: 2;
@@ -487,6 +488,15 @@ hr.double-horizontal {
   .info-wrapper {
     order: 1;
   }
+
+  .hours-location {
+    width: 100%;
+  }
+  
+  .location-hr {
+    width: 80%;
+  }
+
 }
 
 
