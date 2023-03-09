@@ -146,7 +146,7 @@ main {
 /* START OF FOOTER */
 
 footer{
-  background-color: orange;
+  background-color: black;
   padding-top: 1em;
   padding-bottom: 10%;
 }
@@ -172,7 +172,17 @@ footer{
   justify-content: center;
 }
 
+.social-icon {
+  color:white;
+}
+
+.social-icon:hover {
+  color: lightgray;
+}
+
 /* END OF FOOTER  */
+
+/* xdx :3 mom soy emo!!! */
 
 /* START OF SOCIAL MEDIA BUTTONS */
 
