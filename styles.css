@@ -276,6 +276,10 @@ footer{
     object-fit: cover
   }
 
+  /* .hours-location {
+    width: 60%;
+  } */
+
 }
 
 @media screen and (min-width:1024px) {
@@ -424,6 +428,7 @@ hr.double-horizontal {
   color: #666;
   position: relative;
   display: block;
+  text-align: left;
   
 }
 
@@ -476,7 +481,7 @@ hr.double-horizontal {
 
 /* media for hours and location */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
   .second-container {
     display: block;
     width: 100%;
