@@ -321,8 +321,10 @@ footer{
   grid-gap: 10px;
   background-color: white;
   padding: 10px;
-  padding-left:30%;
-  padding-right:30%;
+  /* padding-left:30%;
+  padding-right:30%; */
+  padding-left: 20%;
+  padding-right: 20%;
 }
         
 .item {
@@ -352,8 +354,10 @@ i {
   grid-template-columns: 1fr ;
   background-color:white;
   padding: 10px;
-  padding-left:30%;
-  padding-right:30%;
+  /* padding-left:30%;
+  padding-right:30%; */
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 hr.menu {
