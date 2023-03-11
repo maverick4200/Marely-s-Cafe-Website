@@ -17,6 +17,11 @@ body{
 
 /*navigation style begins here*/
 
+.bussinessName {
+  text-decoration: none;
+  color: black;
+}
+
 header{
   background: var(--background);
   text-align: center;
