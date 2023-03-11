@@ -149,6 +149,13 @@ main {
   position: relative;
 }
 
+/*  */
+
+.disclaimer {
+  text-align: center;
+  width: 80%;
+}
+
 /* START OF FOOTER */
 
 footer{
@@ -435,7 +442,7 @@ hr.double-horizontal {
   color: #666;
   position: relative;
   display: block;
-  text-align: left;
+  text-align: center;
   
 }
 
