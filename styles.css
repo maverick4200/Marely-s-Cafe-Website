@@ -169,6 +169,7 @@ footer{
   text-align: center;
   font-family: 'Segoe UI', Roboto;
   font-size: 2em;
+  padding-top: 2em;
 }
 
 .footer-cafe-name {
@@ -177,6 +178,15 @@ footer{
   text-align: center;
   font-family: 'Segoe UI', Roboto;
   color: white;
+}
+
+.social-footer{
+  list-style: none;
+}
+
+.social-footer li {
+  display: inline-block;
+  list-style-type: none;
 }
 
 .social-media-btn{
