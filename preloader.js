@@ -1,12 +1,10 @@
-var loader;
-
 function loadNow(opacity) {
     if (opacity <= 0) {
         displayContent();
     } else {
         loader.style.opacity = opacity;
-        window.setTimeout(function() {
-            loadNow(opacity - 0.05);
+        setTimeout(function() {
+            loadNow(opacity - 0.10);
         }, 50);
     }
 }
@@ -18,5 +16,7 @@ function displayContent() {
 
 document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
-    loadNow(1);
+    setTimeout(function() {
+        loadNow(1);
+    }, 2000);
 });

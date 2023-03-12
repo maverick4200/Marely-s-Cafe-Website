@@ -20,22 +20,17 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  height: 5vh;
   background: url(background.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 
 #loader {
   position: fixed;
-  /* width: 100%;
-  height: 100vh;
-  z-index: 1;
-  overflow: visible; */
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100vh;
   z-index: 999999;
+  overflow: visible;
   background: #fff url('PreloadGIF.gif') no-repeat center center;
 }
 
