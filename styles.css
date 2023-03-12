@@ -361,8 +361,8 @@ i {
 }
 
 hr.menu {
-  background-color:black;
-  color:black;
+  background-color:#2f1900;
+  color:#2f1900;
   margin:0;
   width:90%;
   opacity:20%;
@@ -516,7 +516,7 @@ hr.double-horizontal {
 @media screen and (min-width:800px) {
   body{
     margin: 0;
-    background: black;
+    background: white;
     display: flex;
     flex-direction: column;
     min-height:100vh;
