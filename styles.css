@@ -349,16 +349,15 @@ i {
   font-family:aerial;
 }
  
-.food-section{
+.food-section {
   font-family:Montserrat;
   display:grid;
   grid-template-columns: 1fr ;
   background-color:white;
   padding: 10px;
-  /* padding-left:30%;
-  padding-right:30%; */
   padding-left: 20%;
   padding-right: 20%;
+  text-align: center;
 }
 
 hr.menu {
@@ -373,7 +372,6 @@ hr.double-horizontal {
   border: 3px solid #2f1900;
   width: 100%;
 }
-
         
 @media (max-width: 800px) {
     .container {  grid-template-columns: auto;}
@@ -398,8 +396,8 @@ hr.double-horizontal {
   margin-bottom: 50px;
   width: 60%;
   margin: 0 auto;
-  text-align: center;
   font-family: Montserrat;
+  text-align: center;
   color: #2f1900;
 }
 
@@ -411,6 +409,31 @@ hr.double-horizontal {
 
 .location-hr {
   border: 3px solid #2f1900;
+  width: 100%;
+}
+
+.menu-download a {
+  position: relative;
+  text-decoration: none;
+  font-family:'Segoe UI', Roboto;
+  font-weight: bold;
+  color: #2f1900;
+
+}
+
+.menu-download a:after {
+  content: "";  
+  position: absolute;
+  background-color: #2f1900;
+  height: 5px;
+  width: 0;
+  left: 0;
+  bottom: -.75em;
+  transition: 250ms;
+  transform-origin: center;
+}
+
+.menu-download a:hover::after {
   width: 100%;
 }
 
@@ -445,6 +468,7 @@ hr.double-horizontal {
   padding: 0;
   font-size: 16px;
   font-family:Montserrat;
+  font-weight: normal;
   color: #666;
   position: relative;
   display: block;
@@ -452,13 +476,14 @@ hr.double-horizontal {
   
 }
 
-.contact-info {
+/* .contact-info {
   font-weight: bold;
-}
+} */
 
   .business-days {
   list-style: none;
   padding-inline-start:0;
+  font-weight: normal;
 }
 
 .info-container a {
@@ -522,7 +547,6 @@ hr.double-horizontal {
   }
 
 }
-
 
 
 
