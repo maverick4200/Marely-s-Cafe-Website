@@ -155,7 +155,6 @@ nav a:hover {
   width: 100%;
   /* border: solid purple 10px; */
   object-fit: cover;
-  /* padding-top: 5%; */
 }
 
 
@@ -587,6 +586,10 @@ hr.double-horizontal {
   
   .location-hr {
     width: 80%;
+  }
+
+  .img-container {
+    padding-top: 20%;
   }
 
 }
