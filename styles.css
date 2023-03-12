@@ -1,5 +1,5 @@
 :root {
-  --background: white;
+  --background: #2f1900;
 }
 
 html{
@@ -19,7 +19,7 @@ body{
 
 .bussinessName {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 header{
@@ -57,7 +57,7 @@ h1.logo {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: black;
+  background: white;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -103,7 +103,7 @@ nav li {
 }
 
 nav a {
-  color: black;
+  color: ivory;
   text-decoration: none;
   font-size: 1em;
   text-transform: uppercase;
@@ -112,7 +112,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: white;
 }
 
 .nav-toggle:checked ~ nav {
@@ -139,7 +139,7 @@ nav a:hover {
 .img-section {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   padding-top: 5%;
 }
 
@@ -159,7 +159,7 @@ main {
 /* START OF FOOTER */
 
 footer{
-  background-color: black;
+  background-color: #2f1900;
   padding-top: 1em;
   padding-bottom: 10%;
 }
@@ -270,7 +270,7 @@ footer{
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: white;
     position: absolute;
     top: -.75em;
     left: 0;
@@ -284,7 +284,7 @@ footer{
   }
 
   .img-container {
-    width: 30%;
+    width: 40%;
     /* border: solid purple 10px; */
     object-fit: cover
   }
@@ -337,7 +337,8 @@ footer{
   font-weight:500;
   border-style:solid;
   border-style:none;
-  width: 90%;  
+  width: 90%;
+  color: #2f1900;
 }
 
 p {
@@ -369,7 +370,7 @@ hr.menu {
 }
 
 hr.double-horizontal {
-  border: 3px solid black;
+  border: 3px solid #2f1900;
   width: 100%;
 }
 
@@ -399,16 +400,17 @@ hr.double-horizontal {
   margin: 0 auto;
   text-align: center;
   font-family: Montserrat;
+  color: #2f1900;
 }
 
 .food-title-menu {
   margin-top: 0;
-  color:black;
+  color: #2f1900;
 }
 
 
 .location-hr {
-  border: 3px solid black;
+  border: 3px solid #2f1900;
   width: 100%;
 }
 
@@ -446,7 +448,7 @@ hr.double-horizontal {
   color: #666;
   position: relative;
   display: block;
-  text-align: center;
+  text-align: left;
   
 }
 
@@ -464,14 +466,14 @@ hr.double-horizontal {
   text-decoration: none;
   font-family:'Segoe UI', Roboto;
   font-weight: bold;
-  color: black;
+  color: #2f1900;
 
 }
 
 .info-container a:after {
   content: "";  
   position: absolute;
-  background-color: black;
+  background-color: #2f1900;
   height: 5px;
   width: 0;
   left: 0;
