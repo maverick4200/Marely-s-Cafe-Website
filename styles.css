@@ -449,31 +449,6 @@ hr.double-horizontal {
   width: 100%;
 }
 
-.menu-download a {
-  position: relative;
-  text-decoration: none;
-  font-family:'Segoe UI', Roboto;
-  font-weight: bold;
-  color: #2f1900;
-
-}
-
-.menu-download a:after {
-  content: "";  
-  position: absolute;
-  background-color: #2f1900;
-  height: 5px;
-  width: 0;
-  left: 0;
-  bottom: -.75em;
-  transition: 250ms;
-  transform-origin: center;
-}
-
-.menu-download a:hover::after {
-  width: 100%;
-}
-
 .second-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
