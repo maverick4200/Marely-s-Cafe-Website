@@ -339,6 +339,9 @@ footer{
   }  
 }
 
+@media (max-width: 325px) {
+  .bussinessName {  font-size: 25px;}
+}
 
 /* START OF MENU CSS  */
 
