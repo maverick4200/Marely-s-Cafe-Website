@@ -357,10 +357,10 @@ i {
 
 hr.menu {
   background-color:#2f1900;
-  color:#F9D08A;
+  color:black;
   margin:0;
   width:90%;
-  opacity:0%;
+  opacity:20%;
 }
 
 hr.double-horizontal {
@@ -428,7 +428,7 @@ hr.double-horizontal {
 }
 
 .map-wrapper {
-  background-color: f5f5f5;
+  background-color: #F9D08A;
   padding: 10px;
 }
 
@@ -507,7 +507,7 @@ hr.double-horizontal {
   .second-container {
     display: block;
     width: 100%;
-    background-color: f5f5f5;
+    background-color: #F9D08A;
   }
   .map-wrapper {
     order: 2;
