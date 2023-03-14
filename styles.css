@@ -378,6 +378,10 @@ hr.double-horizontal {
     .container p {
       font-size: 20px;
     }
+
+    hr.menu {
+      border: 2px solid #2f1900;
+    }
 }   
 
 @media (max-width: 1200px) {
@@ -494,7 +498,7 @@ hr.double-horizontal {
 @media screen and (min-width:800px) {
   body{
     margin: 0;
-    background: white;
+    background: #F9D08A;
     display: flex;
     flex-direction: column;
     min-height:100vh;
